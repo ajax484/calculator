@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+*,
+html {
+    /* background-color: #0F52BA; */
+    font-family: "Source Serif Pro", serif;
+}
+
+#calculator {
+    background-color: #0F52BA !important;
+    border-radius: 20px !important;
+}
+
+h1 {
+    font-weight: 400;
+    color: #CD853F !important;
+}
+
+.calcs {
+    height: 100%;
+    width: 100%;
+    color: #CD853F !important;
+    border-bottom: 1px solid #CD853F !important;
+    font-size: 2em;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #0F52BA;
+}
+
+button {
+    width: 100%;
+    background-color: #e09346 !important;
+    /* #CD853F */
+    color: #fff !important;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+button:active {
+    background-color: #CD853F !important;
+    border: none !important;
+}
